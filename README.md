@@ -6,6 +6,13 @@ I will also endeavor to use this repo to gather third-party prompt engineering r
 
 ## Structure
 
+### My Prompts And Prompt Snippets
+
+My prompts and prompts snippets are under `/myprompts`
+
+
+### Prompt Engineering Resources (By Category)
+
 - Prompt engineering resources are listed under `/resources`
 
 Currently this section has the following entities:
@@ -17,8 +24,6 @@ Currently this section has the following entities:
 - Newsletters
 - Organisations
 - Websites
-
-- My prompts and prompts snippets are under `/myprompts`
 
 
 ## Disclaimer
