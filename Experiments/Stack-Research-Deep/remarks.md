@@ -1,1 +1,48 @@
-# Prompt Remarks, Observations
+# Stack Research "Deep"
+
+Date: 11-08-24
+GPT: 4o, ChatGPT, Web UI
+
+## Notes
+
+The purpose of this prompting experiment was to see how ChatGPT would do with an "evaluation list" prompt that requested many variables. In this case, 12. 
+
+The next objective was to see whether the same prompt could be used to build a "shortlist" based on very specific criteria - in this case a list of tools meeting the 3 "hard requirements" of having a native Android app, supporting backup (somehow), and with support for markdown. 
+
+An "icing on the cake" idea was carrying on into a third section which would attempt to pick a "winner" from the shortlist with a defined yardstick of whichever of the options meeting all the criteria had the best apparent "scalability". Unfortunately the generation stalled before it could output the final section.
+
+## Results
+
+At first glance impressive (without verifying too carefully the various details returned).
+
+The output maintained a consistent format for each record it iterated. 
+
+Attempting to re-engineer the prompt to output more results (e.g. "please output 30 suggestions") caused the generation to stop at 11 and throw this:
+
+```
+(Additional tools would be listed similarly, providing details as above)
+```
+
+But the output could be manually continued by prompting:
+
+```
+Add 10 more tools to the evaluation
+```
+
+After forcing the additional updates, the `Shortlist` section was regenerated to include the new additions, although the GPT failed to transition to the third section of prompt intended to pick the decisive "winner":
+
+```
+Shortlist
+Tools that meet the criteria of having an Android app, supporting Markdown, and offering data backup:
+
+Notion
+Confluence
+Document360
+Guru
+Slite
+Obsidian
+Tettra
+BookStack
+Zendesk Guide
+Kipwise
+```
