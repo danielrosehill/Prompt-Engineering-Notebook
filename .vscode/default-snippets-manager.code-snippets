@@ -1,0 +1,17 @@
+{
+	"Prompt eng - GPT outputs": {
+		"prefix": "Prompt eng - GPT outputs",
+		"description": "Prompt eng - GPT outputs",
+		"scope": "markdown",
+		"body": [
+			"# Details",
+			"",
+			"Date: ",
+			"",
+			"# My Prompt",
+			"",
+			"# Output",
+			""
+		]
+	}
+}

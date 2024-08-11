@@ -6,15 +6,14 @@ I will also endeavor to use this repo to gather third-party prompt engineering r
 
 ## Structure
 
- 
-
 
 ### Prompt Engineering Resources (By Category)
 
-Prompt engineering resources are listed under `/Prompt-Eng-Resource-Library`
+Prompt engineering resources are listed under [resources](/Resources).
 
 Currently this section has the following entities:
 
+```
 - Articles
 - Courses & Certifications
 - Github repositories
@@ -22,19 +21,20 @@ Currently this section has the following entities:
 - Newsletters
 - Organisations
 - Websites
+```
+[Resources folder](/resources)
 
-## Templates For Prompt Engineering
+### GPT Outputs On Prompt Engineering
 
-This repository also contains templates for prompt engineering activities like:
+This repository contains GPT's outputs on how to prompt-engineer.
 
-- Creating a register of developed GPTs
-- Creating a register of GPT prompts (ie, a prompt library)
-- Creating a catalog/library of successful GPT prompt executions (prompt output library)
+This raises the question: *can GPT be trusted as an authoritative source on its own prompt engineering?*. I suggest that the answer requires some thought and analysis. 
 
-## Prompt Engineering Folder Structure
+While ChatGPT seems a little reticent to spill all the prompt engineering beans, it sometimes does produce useful insights. 
 
-An empty folded structure which users may wish to use to assist with prompt engineering
+Because the model and technology are both fast-evolving, a timestamp is noted. 
 
+[GPT Outputs Folder](/GPT-Outputs)
 
 ## Disclaimer
 
