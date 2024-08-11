@@ -9,7 +9,9 @@ The purpose of this prompting experiment was to see how ChatGPT would do with an
 
 The next objective was to see whether the same prompt could be used to build a "shortlist" based on very specific criteria - in this case a list of tools meeting the 3 "hard requirements" of having a native Android app, supporting backup (somehow), and with support for markdown. 
 
-An "icing on the cake" idea was carrying on into a third section which would attempt to pick a "winner" from the shortlist with a defined yardstick of whichever of the options meeting all the criteria had the best apparent "scalability". Unfortunately the generation stalled before it could output the final section.
+Finally, the prompt asked that GPT whittle the shortlist down into an actionable "bottom line" selection of the 3 best tools. 
+
+GPT inferred that they should be ordered by order of preference although the output was a little unclear. 
 
 ## Results
 
@@ -45,4 +47,25 @@ Tettra
 BookStack
 Zendesk Guide
 Kipwise
+```
+
+## Iterative Improvement 
+
+The final section of the prompt needs improvement:
+
+```
+Finally, provide a section called Top 3 GPT Recommendations
+
+Recommend 3 solutions from the shortlist and pick whichever one you think is best and offers the best scalability
+```
+
+It should be reworked to be more explicit. An idea for V2 is:
+
+```
+Finally, provide a section called Winner, Runner Up
+
+Identify the best solution from those listed in the previous section. Judge the "best" solution by the tool with the best ability to scale. List this under a heading called "The Winner."
+
+Next, identify the second best solution from those listed in the previous section. Use the same criteria as before to make this determination. List this under a heading called "Runner Up"
+
 ```
