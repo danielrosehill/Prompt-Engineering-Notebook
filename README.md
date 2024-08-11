@@ -10,6 +10,15 @@ I will also endeavor to use this repo to gather third-party prompt engineering r
 
 ## Structure
 
+- `Experiments` - Logs of experiments designed to test the effectiveness of different prompting strategies
+- `GPT_Outputs` - Asking GPT to provide its own prompt eng guides 
+- `Prompt Snippets` - Snippets I've found helpful in refining prompts
+- `Prompts` - Longer prompts
+- `Resources` - Mentioned below. Other people's prompt engineering guides.
+- ` Templates` - Templates for logging prompt engineering work. Mostly GPT generated to start with my subsequent refinements. 
+- `Workarounds` - Strategies for achieving better outputs
+
+---
 
 ### Prompt Engineering Resources (By Category)
 
@@ -28,19 +37,11 @@ Currently this section has the following entities:
 ```
 [Resources folder](/resources)
 
-### GPT Outputs On Prompt Engineering
+For a more complete set of resources, see the various Awesome repos, including [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering).
 
-This repository contains GPT's outputs on how to prompt-engineer.
-
-This raises the question: *can GPT be trusted as an authoritative source on its own prompt engineering?*. I suggest that the answer requires some thought and analysis. 
-
-While ChatGPT seems a little reticent to spill all the prompt engineering beans, it sometimes does produce useful insights. 
-
-Because the model and technology are both fast-evolving, a timestamp is noted. 
-
-[GPT Outputs Folder](/GPT-Outputs)
-
-## Disclaimer
+ ---
+ 
+ ## Disclaimer
 
 Prompt engineering is a young and rapidly-evolving discipline and given the rapidity at which GPTs evolve and change also something of a constantly moving target. 
 
