@@ -1,5 +1,9 @@
 # GPT Prompt Engineering Resources
 
+![GPT Prompt Engineering](/images/banner.webp)
+
+*Image: Prompt engineering workshop banner. Generation: DALLE*
+
 This is a repository containing strategies I have been experimenting with to improve the outputs from GPTs (but especially ChatGPT) using various attempts to optimise prompts (a field which is now commonly referred to as "prompt engineering").
 
 I will also endeavor to use this repo to gather third-party prompt engineering resources and best practices. 
