@@ -62,7 +62,7 @@ Recommend 3 solutions from the shortlist and pick whichever one you think is bes
 - **Scale:** Unlimited blocks (files/pages).
 - **Backup:** Yes, export options in HTML, Markdown, CSV.
 - **Link:** [Notion](https://www.notion.so/)
-- **Price:** Free; $8/user/month for teams.
+- **Price:** Free; $8/user/month for teams.]#
 
 #### 2. **Confluence**
 - **Android App:** Yes
